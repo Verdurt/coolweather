@@ -80,7 +80,7 @@ public class CoolWeatherDB {
 		return list;
 	}
 
-	public void savecountry(Country country){
+	public void saveCountry(Country country){
 		if(country!=null){
 			ContentValues values=new ContentValues();
 			values.put("country_name", country.getCountryName());
